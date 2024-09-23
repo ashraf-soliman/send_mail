@@ -13,7 +13,7 @@ parser.add_argument('-s', '--subject', required=True)
 parser.add_argument('-a', '--attachment', required=False)
 args = parser.parse_args()
 
-sender_email = "ashraf.8466@gmail.com"
+sender_email = "mail@gmail.com"
 
 # Create App Password in your google account and save it in a file, sender_password.txt in our case here.
 def read_password_from_file(file_path):
